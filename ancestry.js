@@ -17,7 +17,7 @@ var ANCESTRY_FILE = "[\n  " + [
 	'{"name" : "Call of Duty", "Cost" : " 6", "Genre" : "FirstPerson Shooter", "Main Character" : "Joe Martin", "YearReleased" : "2003", "Main Bad Guy" : "N/A"}',
 	'{"name" : "Call of Duty: Finest Hour", "Cost" : " 7", "Genre" : "FirstPerson Shooter", "Main Character" : "Aleksandr Sokolov", "YearReleased" : "2004", "Main Bad Guy" : "N/A"}',
 	'{"name" : "Call of Duty 2", "Cost" : " 9", "Genre" : "FirstPerson Shooter", "Main Character" : "Vasili Koslov", "YearReleased" : "2005", "Main Bad Guy" : "N/A"}',
-	'{"name" : "Call of Duty 3", "Cost" : " 9", "Genre" : "FirstPerson Shooter", "Main Character" : "Private Nichols", "YearReleased" : "2006", "Main Bad Guy" ; "N/A"}',
+	'{"name" : "Call of Duty 3", "Cost" : " 9", "Genre" : "FirstPerson Shooter", "Main Character" : "Private Nichols", "YearReleased" : "2006", "Main Bad Guy" : "N/A"}',
 	'{"name" : "Call of Duty 4: Modern Warfare", "Cost" : " 20", "Genre" : "FirstPerson Shooter", "Main Character" : "John Soap MacTavish", "YearReleased" : "2007", "Main Bad Guy" : "Imran Zakhaev"}',
 	'{"name" : "Call of Duty World at War", "Cost" : " 25", "Genre" : "FirstPerson Shooter", "Main Character" : "C. Miller", "YearReleased" : "2008", "Main Bad Guy" : "N/A"}',
 	'{"name" : "Call of Duty: Modern Warfare 2", "Cost" : " 20", "Genre" : "FirstPerson Shooter", "Main Character" : "Joesph Allen", "YearReleased" : "2009", "Main Bad Guy" : "Vladimir Makarov"}',
