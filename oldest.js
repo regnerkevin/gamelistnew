@@ -9,8 +9,8 @@ function map(array, transform) {
 }
 
 var ChangingCost = ancestry.filter(function(game) {
-  return game.cost - 2;
+  return game.Cost - 2;
 });
 console.log(map(ChangingCost, function(game) {
-  return "The cost of " + game.name +  " after a month is: " +  game.cost;
+  return "The cost of " + game.name +  " after a month is: " +  game.Cost;
 }));
