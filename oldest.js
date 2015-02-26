@@ -8,9 +8,9 @@ function map(array, transform) {
   return mapped;
 }
 
-var overNinety = ancestry.filter(function(game) {
-  return game.died - person.born > 90;
+var changingCost = ancestry.filter(function(game) {
+  return game.cost - 2;
 });
-console.log(map(overNinety, function(person) {
-  return person.name;
+console.log(map(changingCost, function(game) {
+  return "The cost of " + game.name +  " after a month is: " +  game.cost;
 }));
