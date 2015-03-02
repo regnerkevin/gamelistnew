@@ -1,24 +1,7 @@
-datafile = require('./ancestry.js');
- var types = JSON.parse(datafile);
+var datafile = require('./ancestry.js');
+var ancestry = JSON.parse(datafile);
 
- console.log(types.reduce(function(Genre, game) {
-    return (game.Genre  == 'RolePlaying')? game : 'DNE';
-    }));
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-                                                              1,1           All
+ console.log(JSON.stringify(ancestry.reduce(function(oldest, game) {
+         return (game.YearReleased < oldest.YearReleased)? game : oldest;
+    })));
+
